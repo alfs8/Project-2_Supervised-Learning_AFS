@@ -65,9 +65,9 @@ All transformations and modelling decisions are documented and justified to ensu
    pip install -r requirements.txt
 
 2. Launch each notebook in order:
-    ML 1 - Preprocessing.ipynb
-    ML 2 - Model.ipynb
-    ML 3 - Predict.ipynb
+  - ML 1 - Preprocessing.ipynb
+  - ML 2 - Model.ipynb
+  - ML 3 - Predict.ipynb
 
 This project is part of a portfolio showcasing data science work completed during the Master’s program at Nuclio Digital School.
 
