@@ -52,35 +52,22 @@ All transformations and modelling decisions are documented and justified to ensu
 - `ML 3 - Predict.ipynb`  
   Notebook for loading the model and generating final predictions.
 
-- `DATA/telecom_churn_TRAINTEST.csv`  
-  Historical data used for training and testing the model.
-
-- `DATA/telecom_churn_PREDICT.csv`  
-  Data set for which churn probabilities are to be predicted.
-
-- `data/cleaned/`  
-  Cleaned datasets produced by preprocessing.
-
-- `models/churn_model.pkl` & `models/scaler.pkl`  
-  Serialized model and scaler objects.
-
-- `predictions/churn_scores.csv`  
+- `OUTPUT FINAL_PRED.csv`  
   Output file with churn predictions.
 
-- `requirements.txt`  
-  List of Python dependencies.
-
-- `README.md`  
-  This file.
-
-## 🗓️ Delivery Info
-
-- **Deadline:** June 30, 2025, 23:59 CEST  
-- **Submission format:** PDF report and Jupyter Notebooks  
-- **Notebook filenames:** `ML 1 - Preprocessing.ipynb`, `ML 2 - Model.ipynb`, `ML 3 - Predict.ipynb`
+- `variable_dictionary.csv'  
+ List of variables explained
 
 ## 🚀 How to Run
 
 1. Install dependencies:  
    ```bash
    pip install -r requirements.txt
+
+2. Launch each notebook in order:
+    ML 1 - Preprocessing.ipynb
+    ML 2 - Model.ipynb
+    ML 3 - Predict.ipynb
+
+This project is part of a portfolio showcasing data science work completed during the Master’s program at Nuclio Digital School.
+
